@@ -1,0 +1,27 @@
+diamond_age_challenge/
+├── action
+│   ├── BoxSpawnerServer.action
+│   └── BoxStackerServer.action
+├── CMakeLists.txt
+├── launch
+│   ├── action_servers.launch
+│   ├── service_servers.launch
+│   ├── spawn_action_call.launch
+│   ├── spawn_service_call.launch
+│   ├── stack_action_call.launch
+│   └── stack_service_call.launch
+├── package.xml
+├── scripts
+├── src
+│   ├── action_server.py
+│   ├── box_spawn_service_client.py
+│   ├── box_spawn_service_server.py
+│   ├── box_stacking_server.py
+│   ├── box_stack_service_client.py
+│   └── stack_action_server.py
+└── srv
+    ├── SpawnBoxes.srv
+    └── StackBoxes.srv
+
+5 directories, 18 files
+

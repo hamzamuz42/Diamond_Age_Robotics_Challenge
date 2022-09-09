@@ -1,0 +1,4 @@
+<launch>
+<node pkg="diamond_age_challenge" type="box_spawn_service_client.py" name="diamond_age_service_client" />
+
+</launch>

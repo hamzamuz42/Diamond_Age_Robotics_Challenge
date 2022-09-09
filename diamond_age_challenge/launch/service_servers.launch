@@ -1,0 +1,5 @@
+<launch>
+<node pkg="diamond_age_challenge" type="box_spawn_service_server.py" name="diamond_age_service" />
+<node pkg="diamond_age_challenge" type="box_stacking_server.py" name="stacking_node" />
+
+</launch>

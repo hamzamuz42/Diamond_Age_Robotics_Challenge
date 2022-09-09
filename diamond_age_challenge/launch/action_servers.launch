@@ -1,0 +1,5 @@
+<launch>
+<node pkg="diamond_age_challenge" type="action_server.py" name="diamond_age_spawn_action" />
+<node pkg="diamond_age_challenge" type="stack_action_server.py" name="diamond_age_stack_action" />
+
+</launch>
